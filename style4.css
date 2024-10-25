@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* nav css */
+nav{
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1 ;
+}
+/* banner css */
+.banner{
+    /* background-image: url(../image/about-foodpanda-1920x539.jpeg); */
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)) , url(./about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: 40%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    width: 50%;
+    margin: auto;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 0 10px;
+}
+.menu a:hover{
+    background: #ff2b85;
+    padding: 5px ;
+    border-radius: 10px;
+}
+.news{
+    background: #ff2b85;
+    width: 100%;
+    height: 50px;
+}
+.news marquee{
+    color: antiquewhite;
+    font-size: 22px;
+    text-shadow: 3px 3px 3px black;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.about{
+    padding: 130px 200px;
+    text-align: center;
+}
+.about h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: monospace;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 2px rgb(55, 55, 53);
+}
+.about p{
+    letter-spacing: 0.5px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    word-spacing: 1px;
+}
+.about button{
+    background: #f9467e;
+    font-size: 19px;
+    padding: 14px 49px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+.about button:hover{
+    background: linear-gradient(to right , rgb(149, 20, 20),rgb(236, 218, 202));
+}
+.press{
+    background-image: url(./food1.avif);
+    padding: 130px 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.press h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: rgb(239, 244, 236);
+    text-shadow: 2px 2px 2px rgb(132, 25, 18);
+}
+.press p{
+    color: beige;
+    letter-spacing: 0.5px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    word-spacing: 1px;
+}
+.press button{
+    background: #41425d;
+    font-size: 19px;
+    padding: 14px 49px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+.press button:hover{
+    background: linear-gradient(to right , rgb(149, 20, 20),rgb(236, 218, 202));
+}
+.team{
+    /* margin: 120px 0; */
+    background-image: url(./food2.jpg);
+    padding: 130px 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: rgb(239, 244, 236);
+    text-shadow: 2px 2px 2px rgb(132, 25, 18);
+}
+.team p{
+    color: beige;
+    letter-spacing: 0.5px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    word-spacing: 1px;
+}
+.team button{
+    background: #41425d;
+    font-size: 19px;
+    padding: 14px 49px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+.team button:hover{
+    background: linear-gradient(to right , rgb(149, 20, 20),rgb(236, 218, 202));
+}
+
+.contact{
+    padding: 130px 200px;
+    text-align: center;
+    background: beige;
+}
+.contact h1{
+    font-size: 34px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(147, 112, 112);
+}
+.contact p{
+    /* color: beige; */
+    letter-spacing: 0.5px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    word-spacing: 1px;
+}
+.contact button{
+    background: #41425d;
+    font-size: 19px;
+    padding: 14px 49px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+.contact button:hover{
+    background: linear-gradient(to right , rgb(149, 20, 20),rgb(236, 218, 202));
+}
+footer{
+    background: #1a242f;
+    /* width: 100%;
+    height: 300px; */
+    padding: 80px 3% 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.4s ease;
+}
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+.footer-content p{
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
